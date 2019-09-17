@@ -69,3 +69,43 @@ a:hover{
   flex-grow: 2;
 
 	}
+
+  @media screen and (min-width: 900px){
+
+  	#wrapper
+  	{
+  		width: 90%;
+  		margin: 0 auto;
+  	}
+  }
+
+
+
+  @media screen and (max-width: 899px){
+
+  #wrapper
+  	{
+  		width: 100%;
+  		margin: 0 auto;
+  	}
+  	#columna1
+  	{
+  	width: 100%;
+  	}
+  	#columna2
+  	{
+  	width: 100%;
+  	}
+  	#columna3
+  	{
+  	width: 100%;
+  	}
+    #columna4
+    {
+    width: 100%;
+    }
+  	header
+  	{
+  	width:100%;
+  	}
+  }
