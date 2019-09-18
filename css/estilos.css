@@ -7,7 +7,7 @@ body{
   font-size: 20px;
 }
 .wrapper{
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -108,24 +108,27 @@ header{
   	}
     header{
     display: flex;
-    margin-left: -30%;
     align-items: center;
     flex-direction: column;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
     }
-    .titulo{
-    float: center;
-    margin-left: 0%
-    }
-    .menu{
-      float: center;
-      margin-right:0%;
-    }
+
+
     h1  {
        font-size: 25px;
      }
+     .titulo{
+     float: center;
+
+
+   }
+     .menu{
+       float: center;
+    
+       }
+
      #menu-principal a {
      	color: white;
        font-size: 20px;
