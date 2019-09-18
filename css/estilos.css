@@ -118,12 +118,10 @@ header{
     .titulo{
     float: center;
     margin-left: 0%
-
-  }
+    }
     .menu{
       float: center;
       margin-right:0%;
-
     }
     h1  {
        font-size: 25px;
