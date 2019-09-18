@@ -68,6 +68,15 @@ header{
     border-top-left-radius: 10px;
     width: 100%;
   }
+  .titulo{
+  padding: 1em 1em 1em 0px;
+
+}
+  .menu{
+    padding: 1em 0px 1em 1px;
+
+  }
+
   h1  {
      font-size: 25px;
    }
@@ -75,9 +84,10 @@ header{
   	color: white;
     font-size: 22px;
   	}
-    a:hover{
+  a:hover{
       text-decoration: none;
     }
+
   section{
     display: flex;
     flex-flow: row wrap;
