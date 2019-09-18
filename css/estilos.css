@@ -14,7 +14,6 @@ body{
 
 header{
  font-family: 'Dancing Script', cursive;
-  align-items:center;
   background-color: #5b7989;
   color:white;
   text-shadow: 2px 2px 2px #02010a;
@@ -56,7 +55,7 @@ header{
 
   	#wrapper
   	{
-  		width: 90%;
+  		width: 100%;
   		margin: 0 auto;
   	}
   }
@@ -66,17 +65,17 @@ header{
     justify-content: space-around;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 100%;
+
   }
   .titulo{
-  padding: 1em 1em 1em 0px;
+  float: left;
+  margin-left: -20%;
 
 }
   .menu{
-    padding: 1em 0px 1em 1px;
-
+    float: right;
+    margin-right: -20%;
   }
-
   h1  {
      font-size: 25px;
    }
@@ -110,10 +109,21 @@ header{
     header{
     display: flex;
     margin-left: -30%;
+    align-items: center;
     flex-direction: column;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
+    }
+    .titulo{
+    float: center;
+    margin-left: 0%
+
+  }
+    .menu{
+      float: center;
+      margin-right:0%;
+
     }
     h1  {
        font-size: 25px;
