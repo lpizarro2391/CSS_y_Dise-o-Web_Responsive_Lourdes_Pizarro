@@ -10,16 +10,12 @@ body{
     width: 900px;
     margin: 0 auto;
   }
-  section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
 
-  }
 
 header{
  font-family: 'Dancing Script', cursive;
   display: flex;
+  flex-flow: row wrap;
   justify-content:space-around;
   align-items:center;
   background-color: #5b7989;
@@ -43,7 +39,7 @@ a:hover{
 	background-color: #D5F5E3 ;
 	width: 100%;
   order: 2;
-  flex-grow: 2;
+  flex-grow: 1;
 	}
 	.columna2
 	{
@@ -65,7 +61,7 @@ a:hover{
 	background-color: #EAEDED;
 	width: 100%;
   order: 5;
-  flex-grow: 2;
+  flex-grow: 1;
 
 	}
 
@@ -77,6 +73,22 @@ a:hover{
   		margin: 0 auto;
   	}
   }
+  header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+  }
+  footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 
   @media screen and (max-width: 899px){
 
@@ -85,6 +97,25 @@ a:hover{
   		width: 100%;
   		margin: 0 auto;
   	}
+    header{
+    display: flex;
+    margin-left: -31%;
+    flex-direction: column;
+    font-size: 15px;
+    }
+
+    section{
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+
+    }
+    footer{
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+    }
+
   	#columna1
   	{
   	width: 100%;
@@ -105,9 +136,4 @@ a:hover{
   	{
   	width:100%;
   	}
-  }
-  footer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-  }
+}
