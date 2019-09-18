@@ -1,12 +1,12 @@
 
 *{
   margin: 0;
-}
-body{
+ }
+ body{
   background: black;
   font-size: 20px;
-}
-header{
+ }
+  header{
  font-family: 'Dancing Script', cursive;
   background-color: #5b7989;
   color:white;
@@ -45,7 +45,10 @@ header{
   	.wrapper
   	{
   		width: 80%;
-  		margin: 0 auto;
+      margin-top: 0.2%;
+      margin-right: 0%;
+      margin-bottom: 0%;
+      margin-left: 10%;
   	}
   header{
     display: flex;
@@ -53,10 +56,12 @@ header{
     justify-content: space-around;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    padding: 1em 0 1em 0;
    }
    .titulo{
     float: left;
     margin-left: -20%;
+
    }
    .menu{
     float: right;
@@ -68,6 +73,7 @@ header{
    #menu-principal a {
   	color: white;
     font-size: 22px;
+     padding-left: 1em;
   	}
     a:hover{
       text-decoration: none;
@@ -86,8 +92,8 @@ header{
    @media screen and (max-width: 899px){
    .wrapper
   	{
-  		width: 100%;
-  		margin: 0 auto;
+  		width: 95%;
+  		margin: 2%;
   	}
     header{
     display: flex;
@@ -96,6 +102,7 @@ header{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
+    padding: 1em 0 1em 0;
     }
     h1  {
        font-size: 25px;
@@ -109,7 +116,8 @@ header{
 
      #menu-principal a {
      	color: white;
-       font-size: 20px;
+       font-size: 18px;
+       padding-left: 1em;
     	}
       a:hover{
         text-decoration: none;
