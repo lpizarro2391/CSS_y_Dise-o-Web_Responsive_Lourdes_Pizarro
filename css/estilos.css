@@ -6,16 +6,12 @@ body{
   background: black;
   font-size: 20px;
 }
-
-
 header{
  font-family: 'Dancing Script', cursive;
   background-color: #5b7989;
   color:white;
   text-shadow: 2px 2px 2px #02010a;
-}
-
-
+ }
  .columna1
 	{
 	background-color: #D5F5E3 ;
@@ -36,7 +32,7 @@ header{
 	background-color: #FCF3CF ;
 	width: 50%;
   order: 4;
- flex-grow: 1;
+  flex-grow: 1;
 	}
   .columna4
 	{
@@ -44,58 +40,51 @@ header{
 	width: 100%;
   order: 5;
   flex-grow: 1;
-
 	}
-
   @media screen and (min-width: 900px){
-
   	.wrapper
   	{
   		width: 80%;
   		margin: 0 auto;
   	}
-
   header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-  }
-  .titulo{
-  float: left;
-  margin-left: -20%;
-}
-  .menu{
+   }
+   .titulo{
+    float: left;
+    margin-left: -20%;
+   }
+   .menu{
     float: right;
     margin-right: -20%;
-  }
-  h1  {
+    }
+    h1  {
      font-size: 25px;
-   }
-  #menu-principal a {
+     }
+   #menu-principal a {
   	color: white;
     font-size: 22px;
   	}
-  a:hover{
+    a:hover{
       text-decoration: none;
     }
-
-  section{
+   section{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-
-  }
-  footer{
+   }
+   footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-  }
-  }
-  @media screen and (max-width: 899px){
-
-  .wrapper
+   }
+   }
+   @media screen and (max-width: 899px){
+   .wrapper
   	{
   		width: 100%;
   		margin: 0 auto;
@@ -108,38 +97,33 @@ header{
     border-top-left-radius: 10px;
     width: 100%;
     }
-
-
     h1  {
        font-size: 25px;
      }
-     .titulo{
+    .titulo{
      float: center;
-   }
+     }
      .menu{
        float: center;
-       }
+     }
 
      #menu-principal a {
      	color: white;
        font-size: 20px;
-     	}
+    	}
       a:hover{
         text-decoration: none;
       }
-
-    section{
+     section{
       display: flex;
       flex-flow: column;
       justify-content: space-around;
-
-    }
-    footer{
+     }
+     footer{
       display: flex;
       flex-flow: column;
       justify-content: space-around;
-    }
-
+     }
   	.columna1
   	{
   	width: 100%;
@@ -160,4 +144,4 @@ header{
   	{
   	width:100%;
   	}
-}
+  }
