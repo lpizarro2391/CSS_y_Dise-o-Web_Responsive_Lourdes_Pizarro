@@ -16,6 +16,11 @@ body{
     justify-content: space-around;
 
   }
+  footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 header{
  font-family: 'Dancing Script', cursive;
   display: flex;
