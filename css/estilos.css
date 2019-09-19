@@ -103,15 +103,16 @@
    }
    .columna3{
      text-align: center;
-     margin: 0;
+
    }
    .columna3 img{
      width: 80%;
    padding: 1em;
-   margin: 0;
+   margin-top: 20%;
    }
    .columna3 img{
      transform: scale(1,2.2);
+     margin-top: 20%;
    }
    footer{
     display: flex;
@@ -177,12 +178,12 @@ margin: auto;
 }
 .columna3{
   text-align: center;
-  margin: 0;
+margin-top: 0;
 }
 .columna3 img{
   width: 80%;
 padding: 1em;
-margin: 0;
+margin-top: 0;
 }
   	.columna1
   	{
