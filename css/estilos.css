@@ -83,10 +83,14 @@
     flex-flow: row wrap;
     justify-content: space-around;
    }
-   #imagencentralinicio{
-     padding: 1em;
-     padding-left: 10%;
-     float: center;
+   .columna1{
+     text-align: center;
+     margin: auto;
+   }
+   .columna1 img{
+     width: 80%;
+   padding: 1em;
+   margin: auto;
    }
    footer{
     display: flex;
@@ -132,13 +136,15 @@
       flex-flow: column;
       justify-content: space-around;
      }
-
-     #imagencentralinicio{
-       padding: 1em;
-       width: 50%;
-
-    }
-
+.columna1{
+  text-align: center;
+  margin: auto;
+}
+.columna1 img{
+  width: 80%;
+padding: 1em;
+margin: auto;
+}
   	.columna1
   	{
   	width: 100%;
