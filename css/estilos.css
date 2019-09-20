@@ -95,6 +95,7 @@
    .columna2{
      text-align: center;
      margin: 0;
+     padding: 1em;
 
    }
    .columna2 img{
@@ -105,7 +106,7 @@
    .columna3{
      text-align: center;
      margin: 0;
-
+ padding: 1em;
    }
    .columna3 img{
      width: 80%;
