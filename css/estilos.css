@@ -74,30 +74,30 @@
       margin-bottom: 0%;
       margin-left: 10%;
   	}
-  header{
+    header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 1em 0 1em 0;
-   }
-   .titulo{
+     }
+    .titulo{
     float: left;
     margin-left: -20%;
 
-   }
-   .menu{
+     }
+    .menu{
     float: right;
     margin-right: -20%;
     }
     h1  {
      font-size: 25px;
      }
-   #menu-principal a {
+    #menu-principal a {
   	color: white;
     font-size: 22px;
-     padding-left: 1em;
+    padding-left: 1em;
   	}
     a:hover{
       text-decoration: none;
@@ -106,50 +106,50 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-   }
+    }
    .columna1{
      text-align: center;
      margin: auto;
-   }
-   .columna1 img{
+    }
+    .columna1 img{
      width: 85%;
-   padding: 1em;
-   margin: auto;
-   }
-   .columna2{
-     text-align: center;
-     margin: 0;
-    padding-top: 4%;
-   }
-   .columna2 img{
-     width: 80%;
-     height: 90%;
-   margin: 0;
-   }
-   .columna3{
+     padding: 1em;
+     margin: auto;
+    }
+    .columna2{
      text-align: center;
      margin: 0;
      padding-top: 4%;
-   }
-   .columna3 img{
+     }
+     .columna2 img{
      width: 80%;
-   margin: 0;
-   height: 90%;
-   }
-p{
-  font-family: 'Dancing Script', cursive;
-  text-decoration: underline;
-  font-weight: bold;
-}
+     height: 90%;
+     margin: 0;
+     }
+    .columna3{
+     text-align: center;
+     margin: 0;
+     padding-top: 4%;
+     }
+    .columna3 img{
+     width: 80%;
+     margin: 0;
+     height: 90%;
+     }
+    p{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+     }
    footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-   }
-   p#contacto{
+    }
+   #contacto{
      font-size: 100px;
    }
-   @media screen and (max-width: 899px){
+  @media screen and (max-width: 899px){
    .wrapper
   	{
   		width: 95%;
@@ -164,7 +164,7 @@ p{
     width: 100%;
     padding: 1em 0 1em 0;
     }
-    h1  {
+    h1 {
        font-size: 25px;
      }
     .titulo{
@@ -173,38 +173,37 @@ p{
      .menu{
        float: center;
      }
-
      #menu-principal a {
-     	color: white;
-       font-size: 18px;
+      color: white;
+      font-size: 18px;
        padding-left: 1em;
     	}
       a:hover{
         text-decoration: none;
       }
-     section{
+      section{
       display: flex;
       flex-flow: column;
       justify-content: space-around;
+      }
+      .columna1{
+      text-align: center;
+      margin: auto;
+      }
+     .columna1 img{
+     width: 80%;
+     padding: 1em;
+     margin: auto;
      }
-.columna1{
-  text-align: center;
-  margin: auto;
-}
-.columna1 img{
-  width: 80%;
-padding: 1em;
-margin: auto;
-}
-.columna2{
-  text-align: center;
-  margin: auto;
-  padding-top: 5%;
-}
-.columna2 img{
-  width: 80%;
-height: 50%;
-margin: auto;
+     .columna2{
+      text-align: center;
+      margin: auto;
+      padding-top: 5%;
+      }
+    .columna2 img{
+    width: 80%;
+    height: 50%;
+    margin: auto;
 }
 .columna3{
   text-align: center;
