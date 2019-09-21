@@ -14,14 +14,15 @@
  }
  .columna1
 	{
-	background-color: #D5F5E3 ;
+	background-color: #82c3a6;
 	width: 100%;
   order: 2;
   flex-grow: 1;
 	}
 	.columna2
 	{
-	background-color: #FCF3CF ;
+	background-color: #d5c75f ;
+  border: 1px;
 	width: 50%;
   order: 3;
   flex-grow: 1;
@@ -29,7 +30,8 @@
 
 	.columna3
 	{
-	background-color: #FCF3CF ;
+	background-color: #d5c75f  ;
+  border: 1px;
 	width: 50%;
   order: 4;
   flex-grow: 1;
