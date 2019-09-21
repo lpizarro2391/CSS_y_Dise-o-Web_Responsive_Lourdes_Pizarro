@@ -146,7 +146,7 @@ p{
     flex-flow: row wrap;
     justify-content: space-around;
    }
-   #contacto p{
+   p#contacto{
      font-size: 100px;
    }
    @media screen and (max-width: 899px){
@@ -261,4 +261,5 @@ p{
    display: flex;
    flex-flow: column;
    justify-content: space-around;
+  }
   }
