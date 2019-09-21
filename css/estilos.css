@@ -112,7 +112,12 @@ padding-top: 4%;
    margin: 0;
    height: 90%;
    }
+p{
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline;
+  font-weight: bold;
 
+}
    footer{
     display: flex;
     flex-flow: row wrap;
@@ -185,6 +190,7 @@ padding-top: 5%;
   width: 80%;
 height: 50%;
 margin-top: 0;
+
 }	.columna1
   	{
   	width: 100%;
@@ -207,6 +213,10 @@ margin-top: 0;
   	{
   	width:100%;
   	}
+    p{
+      font-family: 'Dancing Script', cursive;
+      text-decoration: underline;
+      font-weight: bold;
   }
   footer{
    display: flex;
