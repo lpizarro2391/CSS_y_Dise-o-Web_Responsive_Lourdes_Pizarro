@@ -4,7 +4,7 @@
  }
  body{
   background: black;
-  font-size: 20px;
+
  }
   header{
  font-family: 'Dancing Script', cursive;
@@ -64,6 +64,7 @@
   order: 8;
   flex-grow: 1;
   }
+
   @media screen and (min-width: 900px){
   	.wrapper
   	{
@@ -128,7 +129,7 @@
    .columna3{
      text-align: center;
      margin: 0;
-padding-top: 4%;
+     padding-top: 4%;
    }
    .columna3 img{
      width: 80%;
@@ -139,13 +140,16 @@ p{
   font-family: 'Dancing Script', cursive;
   text-decoration: underline;
   font-weight: bold;
-
 }
+
+
    footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
    }
+   .contacto p{
+    font-size: 85px;
    }
    @media screen and (max-width: 899px){
    .wrapper
