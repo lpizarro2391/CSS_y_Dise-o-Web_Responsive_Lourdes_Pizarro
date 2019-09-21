@@ -141,15 +141,13 @@ p{
   text-decoration: underline;
   font-weight: bold;
 }
-
-
    footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
    }
-   .contacto p{
-    font-size: 85px;
+   #contacto p{
+     font-size: 100px;
    }
    @media screen and (max-width: 899px){
    .wrapper
