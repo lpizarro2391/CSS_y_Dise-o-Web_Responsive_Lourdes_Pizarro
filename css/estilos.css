@@ -60,7 +60,7 @@
    background-color: #EAEDED;
    width: 25%;
    order: 8;
-    flex-grow: 1;
+   flex-grow: 1;
     }
 
   @media screen and (min-width: 900px){
@@ -171,7 +171,7 @@
      .menu{
        float: center;
      }
-     #menu-principal a {
+     a#menu-principal{
       color: white;
       font-size: 18px;
        padding-left: 1em;
