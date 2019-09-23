@@ -65,6 +65,9 @@
   order: 8;
   flex-grow: 1;
   }
+  p#titulos{
+    font-size: 25px;
+  }
   @media screen and (min-width: 900px){
   	.wrapper
   	 {
@@ -253,4 +256,5 @@
      display: flex;
      flex-flow: column;
      justify-content: space-around;
+     }
      }
