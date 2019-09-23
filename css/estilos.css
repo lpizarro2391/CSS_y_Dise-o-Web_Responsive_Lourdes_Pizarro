@@ -45,21 +45,21 @@
   .columna5
   {
 
-  width: 25%;
+  width: 20%;
   order: 6;
   flex-grow: 1;
   }
   .columna6
   {
 
-  width: 25%;
+  width: 30%;
   order: 7;
   flex-grow: 1;
   }
   .columna7
   {
 
-  width: 25%;
+  width: 20%;
   order: 8;
   flex-grow: 1;
   }
@@ -179,11 +179,13 @@
       font-family: 'Dancing Script', cursive;
       display: flex;
       flex-flow: row wrap;
+      justify-content: space-around;
       background-color: #C6d5c5;
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
       padding-bottom: 8%;
       margin-bottom: 6%;
+      width: 100%;
 
       }
 
@@ -199,6 +201,12 @@
         text-decoration: none;
         padding-bottom: 2%;
       }
+      h1#tituloredessociales{
+        padding-left: 0%;
+        font-size: 45px;
+        text-decoration: none;
+        padding-bottom: 2%;
+      }
       p#direccion{
 
         font-size: 18px;
@@ -207,18 +215,18 @@
         padding: 1em;
       }
       p#termino{
-
+        text-align: left;
         font-size: 18px;
         color: black;
         text-decoration: none;
         padding: 0;
       }
       a#link{
-
-        font-size: 18px;
+        font-size: 15px;
         color: black;
         text-decoration: underline;
-        padding: 1em;
+        padding-left: 5%;
+        font-weight: bold;
       }
       }
   @media screen and (max-width: 899px){
