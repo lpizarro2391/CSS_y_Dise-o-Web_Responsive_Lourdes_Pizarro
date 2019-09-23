@@ -38,28 +38,28 @@
 	}
   .columna4
 	{
-	width: 25;
+	width: 25%;
   order: 5;
   flex-grow: 1;
 	}
   .columna5
   {
-  background-color: #EAEDED;
-  width: 25;
+
+  width: 25%;
   order: 6;
   flex-grow: 1;
   }
   .columna6
   {
-  background-color: #EAEDED;
-  width: 25;
+
+  width: 25%;
   order: 7;
   flex-grow: 1;
   }
   .columna7
   {
-  background-color: #EAEDED;
-  width: 25;
+
+  width: 25%;
   order: 8;
   flex-grow: 1;
   }
@@ -152,33 +152,53 @@
        font-weight: bold;
        font-size: 25px;
        }
-       .columna4{
+      .columna4{
         align-items: left;
         padding-left: 1%;
         padding-top: 2%;
         }
+      .columna5{
+          align-items: left;
+          padding-left: 0;
+          padding-top: 2%;
+          }
+      .columna6{
+        align-items: left;
+        padding-left: 0;
+        padding-top: 2%;
+      }
+      .columna7{
+        align-items: left;
+        padding-left: 0;
+        padding-top: 2%;
+      }
 
       footer{
       font-family: 'Dancing Script', cursive;
       display: flex;
       flex-flow: row wrap;
       background-color: #C6d5c5;
-      justify-content: space-around;
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
-      width: 100%;
       padding-bottom: 8%;
       margin-bottom: 6%;
 
       }
 
-      p#titulos{
+      h1#titulocontacto{
         padding-left: 14%;
         font-size: 45px;
         text-decoration: none;
         padding-bottom: 2%;
       }
       p#direccion{
+
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+        padding: 1em;
+      }
+      p#termino{
 
         font-size: 18px;
         color: black;
