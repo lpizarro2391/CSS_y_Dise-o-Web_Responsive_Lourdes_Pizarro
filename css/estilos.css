@@ -5,7 +5,6 @@
  }
  body{
   background: black;
-  font-size: 20px;
  }
   header{
   font-family: 'Dancing Script', cursive;
@@ -39,7 +38,6 @@
 	}
   .columna4
 	{
-	background-color: #EAEDED;
 	width: 25;
   order: 5;
   flex-grow: 1;
@@ -65,9 +63,7 @@
   order: 8;
   flex-grow: 1;
   }
-  p#titulos{
-    font-size: 25px;
-  }
+
   @media screen and (min-width: 900px){
   	.wrapper
   	 {
@@ -87,21 +83,26 @@
       }
     .titulo{
      float: left;
-     margin-left: -20%;
+     margin-left: -10%;
+     align-items: center;
+     text-align: left;
       }
      .menu{
      float: right;
-     margin-right: -20%;
+     margin-right: -10%;
+     align-items: center;
+     text-align: right;
+     padding-top: 1.8%;
       }
       h1  {
-      font-size: 25px;
+      font-size: 45px;
       }
      #menu-principal a {
   	 color: white;
      font-size: 22px;
       padding-left: 1em;
   	 }
-     a:hover{
+     #menu-principal a:hover {
        text-decoration: none;
       }
      section{
@@ -138,15 +139,53 @@
       margin: 0;
       height: 90%;
       }
-     p{
+     .columna2 p{
      font-family: 'Dancing Script', cursive;
      text-decoration: underline;
       font-weight: bold;
       }
+      .columna3 p{
+      font-family: 'Dancing Script', cursive;
+      text-decoration: underline;
+       font-weight: bold;
+       }
+       .columna4{
+        align-items: left;
+        margin: 0;
+        padding-left: 1%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        }
+
       footer{
+      font-family: 'Dancing Script', cursive;
       display: flex;
       flex-flow: row wrap;
+      background-color: #C6d5c5;
       justify-content: space-around;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 100%;
+      padding: 1em 0 1em 0;
+
+      }
+
+      p#titulos{
+        padding-left: 10%;
+        font-size: 45px;
+        text-decoration: none;
+      }
+      p#direccion{
+
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+      }
+      a#link{
+
+        font-size: 15px;
+        color: black;
+        text-decoration: underline;
       }
       }
   @media screen and (max-width: 899px){
@@ -165,13 +204,17 @@
       padding: 1em 0 1em 0;
       }
       h1  {
-       font-size: 25px;
+       font-size: 45px;
        }
       .titulo{
       float: center;
+      align-items: center;
+      text-align: center;
+
       }
       .menu{
         float: center;
+        text-align: center;
       }
        #menu-principal a {
       	color: white;
@@ -253,8 +296,12 @@
      width: 100%;
      }
      footer{
+      font-family: 'Dancing Script', cursive;
      display: flex;
      flex-flow: column;
+     background-color: #C6d5c5;
      justify-content: space-around;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius:10px;
      }
      }
