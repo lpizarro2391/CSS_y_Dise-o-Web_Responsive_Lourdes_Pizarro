@@ -8,7 +8,7 @@
   font-size: 20px;
  }
   header{
- font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
   background-color: #5b7989;
   color:white;
   text-shadow: 2px 2px 2px #02010a;
@@ -67,197 +67,190 @@
   }
   @media screen and (min-width: 900px){
   	.wrapper
-  	{
-  		width: 80%;
-      margin-top: 0.2%;
-      margin-right: 0%;
-      margin-bottom: 0%;
-      margin-left: 10%;
-  	}
-  header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 1em 0 1em 0;
-   }
-   .titulo{
-    float: left;
-    margin-left: -20%;
-
-   }
-   .menu{
-    float: right;
-    margin-right: -20%;
-    }
-    h1  {
-     font-size: 25px;
-     }
-   #menu-principal a {
-  	color: white;
-    font-size: 22px;
-     padding-left: 1em;
-  	}
-    a:hover{
-      text-decoration: none;
-    }
-   section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-   }
-   .columna1{
-     text-align: center;
-     margin: auto;
-   }
-   .columna1 img{
-     width: 85%;
-   padding: 1em;
-   margin: auto;
-   }
-   .columna2{
-     text-align: center;
-     margin: 0;
-    padding-top: 4%;
-   }
-   .columna2 img{
-     width: 80%;
-     height: 90%;
-   margin: 0;
-   }
-   .columna3{
-     text-align: center;
-     margin: 0;
-padding-top: 4%;
-   }
-   .columna3 img{
-     width: 80%;
-   margin: 0;
-   height: 90%;
-   }
-p{
-  font-family: 'Dancing Script', cursive;
-  text-decoration: underline;
-  font-weight: bold;
-
-}
-   footer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-   }
-   }
-   @media screen and (max-width: 899px){
-   .wrapper
-  	{
-  		width: 95%;
-  		margin: 2%;
-  	}
-    header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    width: 100%;
-    padding: 1em 0 1em 0;
-    }
-    h1  {
-       font-size: 25px;
-     }
+  	 {
+  	 	width: 80%;
+       margin-top: 0.2%;
+       margin-right: 0%;
+       margin-bottom: 0%;
+       margin-left: 10%;
+  	 }
+     header{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     padding: 1em 0 1em 0;
+      }
     .titulo{
-     float: center;
-     }
+     float: left;
+     margin-left: -20%;
+      }
      .menu{
-       float: center;
-     }
-
+     float: right;
+     margin-right: -20%;
+      }
+      h1  {
+      font-size: 25px;
+      }
      #menu-principal a {
-     	color: white;
-       font-size: 18px;
-       padding-left: 1em;
-    	}
-      a:hover{
-        text-decoration: none;
+  	 color: white;
+     font-size: 22px;
+      padding-left: 1em;
+  	 }
+     a:hover{
+       text-decoration: none;
       }
      section{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+      }
+     .columna1{
+      text-align: center;
+      margin: auto;
+      }
+    .columna1 img{
+      width: 85%;
+     padding: 1em;
+      margin: auto;
+      }
+    .columna2{
+      text-align: center;
+      margin: 0;
+     padding-top: 4%;
+      }
+    .columna2 img{
+      width: 80%;
+      height: 90%;
+      margin: 0;
+      }
+     .columna3{
+      text-align: center;
+      margin: 0;
+      padding-top: 4%;
+      }
+    .columna3 img{
+      width: 80%;
+      margin: 0;
+      height: 90%;
+      }
+     p{
+     font-family: 'Dancing Script', cursive;
+     text-decoration: underline;
+      font-weight: bold;
+      }
+      footer{
       display: flex;
-      flex-flow: column;
+      flex-flow: row wrap;
       justify-content: space-around;
+      }
+      }
+  @media screen and (max-width: 899px){
+     .wrapper
+  	 {
+  	  	width: 95%;
+  		 margin: 2%;
+  	  }
+     header{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      width: 100%;
+      padding: 1em 0 1em 0;
+      }
+      h1  {
+       font-size: 25px;
+       }
+      .titulo{
+      float: center;
+      }
+      .menu{
+        float: center;
+      }
+       #menu-principal a {
+      	color: white;
+       font-size: 18px;
+       padding-left: 1em;
+      	}
+        a:hover{
+        text-decoration: none;
+        }
+       section{
+       display: flex;
+       flex-flow: column;
+       justify-content: space-around;
+        }
+       .columna1{
+      text-align: center;
+      margin: auto;
+       }
+      .columna1 img{
+      width: 80%;
+     padding: 1em;
+     margin: auto;
+      }
+     .columna2{
+     text-align: center;
+    margin: auto;
+     padding-top: 5%;
+      }
+    .columna2 img{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+      }
+     .columna3{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5%;
+    }
+    .columna3 img{
+    width: 80%;
+   height: 50%;
+    margin-top: 0;
+    }
+    header
+     {
+     width:100%;
+      }
+     p{
+     font-family: 'Dancing Script', cursive;
+     text-decoration: underline;
+     font-weight: bold;
+      }
+	    .columna1
+  	  {
+  	   width: 100%;
+  	  }
+  	  .columna2
+  	  {
+  	  width: 100%;
+  	  }
+  	 .columna3
+  	 {
+  	  width: 100%;
+    	}
+     .columna4
+     {
+      width: 100%;
      }
-.columna1{
-  text-align: center;
-  margin: auto;
-}
-.columna1 img{
-  width: 80%;
-padding: 1em;
-margin: auto;
-}
-.columna2{
-  text-align: center;
-  margin: auto;
-  padding-top: 5%;
-}
-.columna2 img{
-  width: 80%;
-height: 50%;
-margin: auto;
-}
-.columna3{
-  text-align: center;
-margin-top: 0;
-padding-top: 5%;
-}
-.columna3 img{
-  width: 80%;
-height: 50%;
-margin-top: 0;
-
-}
-header
-{
-width:100%;
-}
-p{
-  font-family: 'Dancing Script', cursive;
-  text-decoration: underline;
-  font-weight: bold;
-}
-	.columna1
-  	{
-  	width: 100%;
-  	}
-  	.columna2
-  	{
-  	width: 100%;
-
-  	}
-  	.columna3
-  	{
-  	width: 100%;
-
-  	}
-    .columna4
-    {
-    width: 100%;
-    }
-    .columna5
-    {
-    width: 100%;
-    }
-    .columna6
-    {
-    width: 100%;
-    }
-    .columna7
-    {
-    width: 100%;
-    }
-
-  footer{
-   display: flex;
-   flex-flow: column;
-   justify-content: space-around;
-  }
+     .columna5
+     {
+     width: 100%;
+     }
+     .columna6
+     {
+     width: 100%;
+     }
+     .columna7
+     {
+     width: 100%;
+     }
+     footer{
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+     }
