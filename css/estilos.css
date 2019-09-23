@@ -123,6 +123,7 @@
       text-align: center;
       margin: 0;
      padding-top: 4%;
+     padding-bottom: 1%;
       }
     .columna2 img{
       width: 80%;
@@ -134,6 +135,7 @@
       text-align: center;
       margin: 0;
       padding-top: 4%;
+      padding-bottom: 1%;
       }
     .columna3 img{
       width: 80%;
@@ -191,6 +193,12 @@
         text-decoration: none;
         padding-bottom: 2%;
       }
+      h1#titulotermino{
+        padding-left: 5%;
+        font-size: 45px;
+        text-decoration: none;
+        padding-bottom: 2%;
+      }
       p#direccion{
 
         font-size: 18px;
@@ -203,7 +211,7 @@
         font-size: 18px;
         color: black;
         text-decoration: none;
-        padding: 1em;
+        padding: 0;
       }
       a#link{
 
@@ -267,6 +275,7 @@
      text-align: center;
     margin: auto;
      padding-top: 5%;
+     padding-bottom: 1%;
       }
     .columna2 img{
     width: 80%;
@@ -277,6 +286,7 @@
     text-align: center;
     margin-top: 0;
     padding-top: 5%;
+    padding-bottom: 1%;
     }
     .columna3 img{
     width: 80%;
