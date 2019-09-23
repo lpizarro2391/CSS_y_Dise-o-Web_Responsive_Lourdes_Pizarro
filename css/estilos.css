@@ -5,12 +5,6 @@
   body{
     background: black;
   }
-  header{
-    font-family: 'Dancing Script', cursive;
-    background-color: #5b7989;
-    color:white;
-    text-shadow: 2px 2px 2px #02010a;
-    }
   .columna1
 	 {
 	 background-color: #82c3a6;
@@ -73,12 +67,16 @@
       margin-left: 10%;
   	}
     header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 1em 0 1em 0;
+      font-family: 'Dancing Script', cursive;
+      background-color: #5b7989;
+      color:white;
+      text-shadow: 2px 2px 2px #02010a;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 1em 0 1em 0;
      }
     .titulo{
     float: left;
@@ -157,14 +155,18 @@
      margin-left: 10%;
    }
     header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 1em 0 1em 0;
-    }
+      font-family: 'Dancing Script', cursive;
+      background-color: #5b7989;
+      color:white;
+      text-shadow: 2px 2px 2px #02010a;
+      display: flex;
+     align-items: center;
+     flex-direction: column;
+      justify-content: space-around;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 1em 0 1em 0;
+      }
     h1 {
        font-size: 25px;
      }
