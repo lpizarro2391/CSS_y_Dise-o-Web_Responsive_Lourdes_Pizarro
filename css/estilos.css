@@ -228,6 +228,13 @@
         padding-left: 5%;
         font-weight: bold;
       }
+      a#redes{
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+        padding-left: 0;
+        font-weight: bold;
+      }
       }
   @media screen and (max-width: 899px){
      .wrapper
