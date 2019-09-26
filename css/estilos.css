@@ -5,6 +5,10 @@
  }
  body{
   background: #02010a;
+  background: -webkit-linear-gradient(#02010a);* /For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#02010a);/* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#02010a);/* For Firefox 3.6 to 15 */
+  background: linear-gradient(#02010a)/* Standard syntax */
  }
   header{
   font-family: 'Dancing Script', cursive;
@@ -63,7 +67,9 @@
   order: 8;
   flex-grow: 1;
   }
-
+  img {
+    filter: drop-shadow(2px 2px 2px #02010a);
+  }
   @media screen and (min-width: 900px){
   	.wrapper
   	 {
@@ -130,7 +136,15 @@
       height: 90%;
       margin: 0;
       }
-
+      .columna2 p{
+      font-family: 'Dancing Script', cursive;
+      text-decoration: underline;
+       font-weight: bold;
+       font-size: 25px;
+       }
+      .columna2 img:hover{
+      transform: rotateZ(10deg);
+      }
      .columna3{
       text-align: center;
       margin: 0;
@@ -142,18 +156,13 @@
       margin: 0;
       height: 90%;
       }
-     .columna2 p{
-     font-family: 'Dancing Script', cursive;
-     text-decoration: underline;
-      font-weight: bold;
-      font-size: 25px;
-      }
       .columna3 p{
       font-family: 'Dancing Script', cursive;
       text-decoration: underline;
        font-weight: bold;
        font-size: 25px;
        }
+
       .columna4{
         align-items: left;
         padding-left: 1%;
