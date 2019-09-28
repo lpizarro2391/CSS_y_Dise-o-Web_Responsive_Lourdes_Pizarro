@@ -283,9 +283,18 @@
       }
 
       h1#titulocontacto{
-        padding-left: 14%;
+        padding-left: 18%;
         font-size: 45px;
-        padding-bottom: 2%;
+
+      }
+      p#direccion{
+        font-size: 18px;
+        color: black;
+        padding-left:5%;
+      }
+      a#link{
+        font-size: 15px;
+        padding-left: 5%;
       }
       h1#titulotermino{
         padding-left: 5%;
@@ -302,20 +311,13 @@
         font-size: 45px;
         padding-bottom: 2%;
       }
-      p#direccion{
-        font-size: 18px;
-        color: black;
-        padding:12px;
-      }
+
       p#termino{
         text-align: left;
         font-size: 18px;
         padding: 0;
       }
-      a#link{
-        font-size: 15px;
-        padding-left: 5%;
-      }
+
       a#redes{
         font-size: 15px;
         padding-left: 0;
@@ -359,33 +361,63 @@
        .columna1{
       text-align: center;
       margin: auto;
+      padding-top: 5%;
+      padding-bottom: 5%;
        }
       .columna1 img{
       width: 80%;
-     padding: 1em;
+
      margin: auto;
       }
      .columna2{
      text-align: center;
     margin: auto;
      padding-top: 5%;
-     padding-bottom: 1%;
+     padding-bottom: 5%;
       }
     .columna2 img{
     width: 80%;
     height: 50%;
-    margin: auto;
+
       }
      .columna3{
     text-align: center;
     margin-top: 0;
     padding-top: 5%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
     }
     .columna3 img{
     width: 80%;
    height: 50%;
     margin-top: 0;
+    }
+    .columna4 {
+    width: 80%;
+   height: 50%;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    .columna5 {
+    width: 80%;
+   height: 50%;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    .columna6 {
+    width: 80%;
+   height: 50%;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    .columna7 {
+    width: 80%;
+   height: 50%;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
     }
     header
      {
@@ -423,5 +455,52 @@
      display: flex;
      flex-flow: column;
      justify-content: space-around;
+     }
+     h1#titulocontacto{
+       padding-left: 12%;
+       font-size: 45px;
+
+     }
+     p#direccion{
+       font-size: 18px;
+       color: black;
+       padding-left:5%;
+     }
+     a#link{
+       font-size: 15px;
+       padding-left: 5%;
+     }
+     h1#titulotermino{
+       padding-left: 12%;
+       font-size: 45px;
+     }
+     h1#tituloredessociales{
+       padding-left: 12%;
+       font-size: 45px;
+     }
+     p#redessociales{
+       text-align: left;
+       font-size: 18px;
+        padding-left: 12%
+     }
+
+     h1#tituloderechos{
+       padding-left: 12%;
+       font-size: 45px;
+     }
+     p#termino{
+       text-align: left;
+       font-size: 18px;
+        padding-left: 0;
+     }
+     p#derechos{
+       text-align: left;
+       font-size: 18px;
+        padding-left: 12%;
+     }
+
+     a#redes{
+       font-size: 15px;
+       padding-left: 12%;
      }
      }
