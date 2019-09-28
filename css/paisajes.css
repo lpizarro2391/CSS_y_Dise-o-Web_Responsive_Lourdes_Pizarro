@@ -103,60 +103,59 @@
       flex-flow: row wrap;
       justify-content: space-around;
       background-color: #d5c75f ;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      padding-left: 1%;
+      padding-right: 1%;
       }
       .columna1{
       width: 30%;
-      padding-left: 0%;
+      margin-bottom: 3%
       }
       .columna1 img{
         width: 100%;
-        padding: 5% 0 5%;
-
+        align-items: center;
       }
       .columna2{
       width: 30%;
-      padding-left: 0%;
+      margin-bottom: 3%
       }
       .columna2 img{
         width: 100%;
-        padding: 5% 0 5%;
+        align-items: center;
 
       }
       .columna3{
       width: 30%;
-
-      padding-left: 0%;
+      margin-bottom: 3%
       }
       .columna3 img{
         width: 100%;
-        padding: 5% 0 5%;
+        align-items: center;
+
 
       }
       .columna8{
       width: 30%;
-      padding-left: 0%;
+
       }
       .columna8 img{
         width: 100%;
-        padding: 5% 0 5%;
 
       }
       .columna9{
       width: 30%;
-      padding-left: 0%;
       }
       .columna9 img{
         width: 100%;
-        padding: 5% 0 5%;
 
       }
       .columna10{
       width: 30%;
-      padding-left: 0%;
       }
       .columna10 img{
         width: 100%;
-        padding: 5% 0 5%;
+
 
       }
 
@@ -172,44 +171,44 @@
       }
 
       h1#titulocontacto{
-        padding-left: 18%;
+
         font-size: 45px;
 
       }
       p#direccion{
         font-size: 18px;
         color: black;
-        padding-left:5%;
+
       }
       a#link{
         font-size: 15px;
-        padding-left: 5%;
+
       }
       h1#titulotermino{
-        padding-left: 5%;
+
         font-size: 45px;
-        padding-bottom: 2%;
+
       }
       h1#tituloredessociales{
-        padding-left: 0%;
+
         font-size: 45px;
-        padding-bottom: 2%;
+
       }
       h1#tituloderechos{
-        padding-left: 0%;
+
         font-size: 45px;
-        padding-bottom: 2%;
+
       }
 
       p#termino{
         text-align: left;
         font-size: 18px;
-        padding: 0;
+
       }
 
       a#redes{
         font-size: 15px;
-        padding-left: 0;
+
       }
       }
   @media screen and (max-width: 899px){
@@ -246,58 +245,118 @@
        display: flex;
        flex-flow: column;
        justify-content: space-around;
+       background-color: #d5c75f ;
+       padding-top: 7%;
+       padding-bottom: 7%;
+       padding-left: 7%;
+       padding-right: 7%;
         }
+         .columna1{
+         width: 100%;
+         margin-bottom: 7%
+         }
+         .columna1 img{
+           width: 100%;
+           align-items: center;
+         }
+         .columna2{
+         width: 100%;
+         margin-bottom: 7%
+         }
+         .columna2 img{
+           width: 100%;
+           align-items: center;
+
+         }
+         .columna3{
+         width: 100%;
+         margin-bottom: 7%
+         }
+         .columna3 img{
+           width: 100%;
+           align-items: center;
+
+
+         }
+         .columna8{
+         width: 100%;
+         margin-bottom: 7%
+
+         }
+         .columna8 img{
+           width: 100%;
+
+         }
+         .columna9{
+         width: 100%;
+         margin-bottom: 7%
+         }
+         .columna9 img{
+           width: 100%;
+
+         }
+         .columna10{
+         width: 100%;
+
+         }
+         .columna10 img{
+           width: 100%;
+
+
+         }
 
      footer{
      display: flex;
      flex-flow: column;
      justify-content: space-around;
+
      }
      h1#titulocontacto{
-       padding-left: 12%;
+
        font-size: 45px;
 
      }
+
      p#direccion{
        font-size: 18px;
        color: black;
-       padding-left:5%;
+
      }
      a#link{
        font-size: 15px;
-       padding-left: 5%;
+
      }
      h1#titulotermino{
-       padding-left: 12%;
+
        font-size: 45px;
      }
      h1#tituloredessociales{
-       padding-left: 12%;
+
        font-size: 45px;
      }
      p#redessociales{
        text-align: left;
        font-size: 18px;
-        padding-left: 12%
+
      }
 
      h1#tituloderechos{
-       padding-left: 12%;
+
        font-size: 45px;
      }
      p#termino{
        text-align: left;
        font-size: 18px;
-        padding-left: 12%;
+
      }
      p#derechos{
        text-align: left;
        font-size: 18px;
-        padding-left: 12%;
+
      }
 
      a#redes{
        font-size: 15px;
-       padding-left: 12%;
+
      }
      }
