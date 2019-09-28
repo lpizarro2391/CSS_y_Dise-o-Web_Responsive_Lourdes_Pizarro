@@ -27,7 +27,6 @@
    text-decoration: none;
   }
 
-
   footer{
     background-color: #C6d5c5;
     font-family: 'Dancing Script', cursive;
@@ -72,6 +71,7 @@
        margin-bottom: 0%;
        margin-left: 10%;
   	 }
+
      header{
      display: flex;
      flex-flow: row wrap;
@@ -99,9 +99,65 @@
        padding-left: 1em;
       }
      section{
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: space-around;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      background-color: #d5c75f ;
+      }
+      .columna1{
+      width: 30%;
+      padding-left: 0%;
+      }
+      .columna1 img{
+        width: 100%;
+        padding: 5% 0 5%;
+
+      }
+      .columna2{
+      width: 30%;
+      padding-left: 0%;
+      }
+      .columna2 img{
+        width: 100%;
+        padding: 5% 0 5%;
+
+      }
+      .columna3{
+      width: 30%;
+
+      padding-left: 0%;
+      }
+      .columna3 img{
+        width: 100%;
+        padding: 5% 0 5%;
+
+      }
+      .columna8{
+      width: 30%;
+      padding-left: 0%;
+      }
+      .columna8 img{
+        width: 100%;
+        padding: 5% 0 5%;
+
+      }
+      .columna9{
+      width: 30%;
+      padding-left: 0%;
+      }
+      .columna9 img{
+        width: 100%;
+        padding: 5% 0 5%;
+
+      }
+      .columna10{
+      width: 30%;
+      padding-left: 0%;
+      }
+      .columna10 img{
+        width: 100%;
+        padding: 5% 0 5%;
+
       }
 
 
@@ -191,7 +247,7 @@
        flex-flow: column;
        justify-content: space-around;
         }
-      
+
      footer{
      display: flex;
      flex-flow: column;
