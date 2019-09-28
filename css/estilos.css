@@ -14,9 +14,12 @@
   font-family: 'Dancing Script', cursive;
   background-color: #5b7989;
   color:white;
-  text-shadow: 2px 2px 2px #02010a;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+
+ }
+ .titulo h1{
+  text-shadow: 2px 2px 2px #02010a;
  }
   #menu-principal a {
   color: white;
@@ -171,7 +174,7 @@
       font-weight: bold;
     }
 
-    @media screen and (min-width: 900px){
+  @media screen and (min-width: 900px){
   	.wrapper
   	 {
   	 	width: 80%;
@@ -214,7 +217,7 @@
      .columna1{
       text-align: center;
       margin: auto;
-      padding: 1em;
+      padding: 3%;
       }
     .columna1 img{
       width: 85%;
@@ -223,8 +226,8 @@
     .columna2{
       text-align: center;
       margin: 0;
-     padding-top: 4%;
-     padding-bottom: 1%;
+     padding-top: 3%;
+     padding-bottom: 4%;
       }
     .columna2 img{
       width: 80%;
@@ -238,8 +241,8 @@
      .columna3{
       text-align: center;
       margin: 0;
-      padding-top: 4%;
-      padding-bottom: 1%;
+      padding-top: 3%;
+      padding-bottom: 4%;
       }
     .columna3 img{
       width: 80%;
