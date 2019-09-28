@@ -301,7 +301,6 @@
         padding-bottom: 2%;
       }
       p#direccion{
-
         font-size: 18px;
         color: black;
         padding:12px;
@@ -323,7 +322,7 @@
   @media screen and (max-width: 899px){
      .wrapper
   	 {
-  	  	width: 95%;
+  	 	width: 95%;
   		 margin: 2%;
   	  }
      header{
@@ -347,13 +346,9 @@
         text-align: center;
       }
        #menu-principal a {
-      	color: white;
        font-size: 18px;
        padding-left: 1em;
       	}
-        a:hover{
-        text-decoration: none;
-        }
        section{
        display: flex;
        flex-flow: column;
@@ -394,11 +389,6 @@
      {
      width:100%;
       }
-     p{
-     font-family: 'Dancing Script', cursive;
-     text-decoration: underline;
-     font-weight: bold;
-      }
 	    .columna1
   	  {
   	   width: 100%;
@@ -428,7 +418,6 @@
      width: 100%;
      }
      footer{
-      font-family: 'Dancing Script', cursive;
      display: flex;
      flex-flow: column;
      justify-content: space-around;
