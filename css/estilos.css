@@ -371,6 +371,26 @@
       }
       }
   @media screen and (max-width: 899px){
+    .wrapper{
+      animation-duration: 1s;
+      animation-name: slidein;
+     }
+
+     @keyframes slidein {
+       from {
+       margin-top: 150%;
+      width: 95%;
+       }
+     60%{
+      margin-top:-5%;
+      width: 95%;
+     }
+     to {
+      margin-top:0%;
+      width: 95%;
+
+    }
+    }
      .wrapper
   	 {
   	 	width: 95%;
