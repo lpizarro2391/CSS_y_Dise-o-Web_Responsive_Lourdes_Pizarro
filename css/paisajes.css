@@ -47,6 +47,7 @@
     font-family: 'Dancing Script', cursive;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+
     }
     h1#titulocontacto{
       text-decoration: none;
@@ -179,6 +180,7 @@
       padding-bottom: 5%;
       margin-bottom: 5%;
       width: 100%;
+      padding-top: 2%;
       }
       .columna4{
         width: 25%

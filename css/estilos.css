@@ -31,9 +31,7 @@
   .columna1
 	{
 	background-color: #82c3a6;
-	width: 100%;
-  order: 2;
-  flex-grow: 1;
+
 	}
   .columna1 img{
   -webkit-box-shadow: 2px 4px 0px 2px  #02010a;
@@ -44,9 +42,6 @@
 	.columna2
 	{
 	background-color: #d5c75f ;
-	width: 50%;
-  order: 3;
-  flex-grow: 1;
 	}
   .columna2 p{
   font-family: 'Dancing Script', cursive;
@@ -78,9 +73,6 @@
 	.columna3
 	{
 	background-color: #d5c75f  ;
-	width: 50%;
-  order: 4;
-  flex-grow: 1;
 	}
   .columna3 p{
   font-family: 'Dancing Script', cursive;
@@ -111,33 +103,7 @@
   from {transform:translate(-5px)}
   to {transform:translate(20px);box-shadow:2px 4px 0px 2px  #82c3a6;}
   }
-  .columna4
-	{
-	width: 25%;
-  order: 5;
-  flex-grow: 1;
-	}
-  .columna5
-  {
 
-  width: 20%;
-  order: 6;
-  flex-grow: 1;
-  }
-  .columna6
-  {
-
-  width: 25%;
-  order: 7;
-  flex-grow: 1;
-  }
-  .columna7
-  {
-
-  width: 25%;
-  order: 8;
-  flex-grow: 1;
-  }
 
   footer{
     background-color: #C6d5c5;
@@ -218,7 +184,10 @@
       text-align: center;
       margin: auto;
       padding: 3%;
-      }
+    	width: 100%;
+      order: 2;
+      flex-grow: 1;
+    	}
     .columna1 img{
       width: 85%;
       margin: auto;
@@ -228,7 +197,10 @@
       margin: 0;
      padding-top: 3%;
      padding-bottom: 4%;
-      }
+    	width: 50%;
+      order: 3;
+      flex-grow: 1;
+    	}
     .columna2 img{
       width: 80%;
       height: 90%;
@@ -243,7 +215,10 @@
       margin: 0;
       padding-top: 3%;
       padding-bottom: 4%;
-      }
+    	width: 50%;
+      order: 4;
+      flex-grow: 1;
+    	}
     .columna3 img{
       width: 80%;
       margin: 0;
@@ -284,7 +259,33 @@
       width: 100%;
 
       }
+      .columna4
+      {
+      width: 25%;
+      order: 5;
+      flex-grow: 1;
+      }
+      .columna5
+      {
 
+      width: 20%;
+      order: 6;
+      flex-grow: 1;
+      }
+      .columna6
+      {
+
+      width: 25%;
+      order: 7;
+      flex-grow: 1;
+      }
+      .columna7
+      {
+
+      width: 25%;
+      order: 8;
+      flex-grow: 1;
+      }
       h1#titulocontacto{
         padding-left: 15%;
         font-size: 45px;
