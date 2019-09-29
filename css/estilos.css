@@ -300,7 +300,7 @@
         padding-left: 5%;
       }
       h1#titulotermino{
-        padding-left: 5%;
+        padding-left: 0%;
         font-size: 45px;
         padding-bottom: 2%;
       }
@@ -310,7 +310,7 @@
         padding-bottom: 2%;
       }
       h1#tituloderechos{
-        padding-left: 20%;
+        padding-left: 0%;
         font-size: 45px;
         padding-bottom: 2%;
       }
@@ -326,7 +326,7 @@
         padding-left: 0%;
       }
       p#redessociales{
-        padding-left: 20%;
+        padding-left: %;
       }
       }
   @media screen and (max-width: 899px){
