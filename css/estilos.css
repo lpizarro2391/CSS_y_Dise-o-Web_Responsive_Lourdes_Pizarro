@@ -119,20 +119,30 @@
     }
     h1#tituloredessociales{
       text-decoration: none;
+
     }
     h1#tituloderechos{
       text-decoration: none;
+
     }
     p#direccion{
       text-decoration: none;
+
     }
     p#termino{
       text-decoration: none;
     }
-    a#link{
+    a#link1{
       color: black;
       text-decoration: underline;
       font-weight: bold;
+
+    }
+    a#link2{
+      color: black;
+      text-decoration: underline;
+      font-weight: bold;
+
     }
     a#redes{
       color: black;
@@ -169,7 +179,7 @@
      padding-top: 1.8%;
       }
       h1  {
-      font-size: 45px;
+      font-size: 35px;
       }
       #menu-principal a {
       font-size: 22px;
@@ -288,32 +298,41 @@
       }
       h1#titulocontacto{
         padding-left: 15%;
-        font-size: 45px;
+        font-size: 35px;
+        padding-bottom: 10%;
 
+      }
+
+      a#link1{
+        font-size: 15px;
+        padding-left: 15%;
+        margin-bottom: 10%;
       }
       p#direccion{
         font-size: 18px;
         color: black;
         padding-left:15%;
+
       }
-      a#link{
+      a#link2{
         font-size: 15px;
         padding-left: 15%;
+        padding-bottom: 0%;
       }
       h1#titulotermino{
         padding-left: 0%;
-        font-size: 45px;
-        padding-bottom: 2%;
+        font-size: 35px;
+        padding-bottom: 10%;
       }
       h1#tituloredessociales{
         padding-left: 0%;
-        font-size: 45px;
-        padding-bottom: 2%;
+        font-size: 35px;
+        padding-bottom: 10%;
       }
       h1#tituloderechos{
         padding-left: 0%;
-        font-size: 45px;
-        padding-bottom: 2%;
+        font-size: 35px;
+        padding-bottom: 10%;
       }
 
       p#termino{
@@ -343,8 +362,8 @@
       width: 100%;
       padding: 1em 0 1em 0;
       }
-      h1  {
-       font-size: 45px;
+      h1#tituloprincipal  {
+       font-size: 35px;
        }
       .titulo{
       float: center;
@@ -463,10 +482,13 @@
      flex-flow: column;
      justify-content: space-around;
      padding-left: 10%;
+     padding-bottom: 20%;
+     padding-top: 10%;
      }
      h1#titulocontacto{
 
-       font-size: 45px;
+       font-size: 35px;
+       padding-bottom: 10px;
 
      }
      p#direccion{
@@ -480,11 +502,13 @@
      }
      h1#titulotermino{
 
-       font-size: 45px;
+       font-size: 35px;
+       padding-bottom: 10px;
      }
      h1#tituloredessociales{
 
-       font-size: 45px;
+       font-size: 35px;
+       padding-bottom: 10px;
      }
      p#redessociales{
        text-align: left;
@@ -494,7 +518,8 @@
 
      h1#tituloderechos{
 
-       font-size: 45px;
+       font-size: 35px;
+       padding-bottom: 10px;
      }
      p#termino{
        text-align: left;
