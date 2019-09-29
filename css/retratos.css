@@ -2,6 +2,26 @@
   margin: 0;
 
  }
+ .wrapper{
+   animation-duration: 1s;
+   animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+    margin-top: 150%;
+   width: 80%;
+    }
+  60%{
+   margin-top:-5%;
+   width: 80%;
+  }
+  to {
+   margin-top:0%;
+   width: 80%;
+
+ }
+}
  body{
   background: #02010a;
   background: -webkit-linear-gradient(#02010a);* /For Safari 5.1 to 6.0 */
