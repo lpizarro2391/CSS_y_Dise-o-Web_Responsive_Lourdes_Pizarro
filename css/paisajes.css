@@ -155,10 +155,7 @@
       }
       .columna10 img{
         width: 100%;
-
-
       }
-
 
       footer{
       display: flex;
@@ -167,11 +164,21 @@
       padding-bottom: 8%;
       margin-bottom: 6%;
       width: 100%;
-
       }
-
+      .columna4{
+        width: 25%
+      }
+      .columna5{
+        width: 20%
+      }
+      .columna6{
+        width: 25%
+      }
+      .columna7{
+        width: 25%
+      }
       h1#titulocontacto{
-
+        padding-left:15%;
         font-size: 45px;
 
       }
@@ -309,6 +316,7 @@
      display: flex;
      flex-flow: column;
      justify-content: space-around;
+
 
      }
      h1#titulocontacto{
