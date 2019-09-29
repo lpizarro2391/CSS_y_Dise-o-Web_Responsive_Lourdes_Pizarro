@@ -255,8 +255,8 @@
       header{
         width: 100%;
       }
-      h1  {
-       font-size: 35px;
+      h1#tituloprincipal {
+       font-size: 32px;
        }
       .titulo{
       float: center;
