@@ -176,7 +176,8 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
-      padding-bottom: 8%;
+      padding-bottom: 5%;
+      margin-bottom: 5%;
       width: 100%;
       }
       .columna4{
@@ -199,11 +200,11 @@
       p#direccion{
         font-size: 18px;
         color: black;
-
+        padding-left:15%;
       }
       a#link{
         font-size: 15px;
-
+        padding-left:15%;
       }
       h1#titulotermino{
 
@@ -323,15 +324,24 @@
          .columna10 img{
            width: 100%;
 
-
          }
 
      footer{
      display: flex;
      flex-flow: column;
      justify-content: space-around;
-
-
+     padding-left: 10%;
+     padding-top: 10%;
+     padding-bottom: 20%;
+     }
+     .columna4{
+       width: 100%;
+     }
+     .columna5{
+       width: 100%;
+     }
+     .columna6{
+       width: 100%;
      }
      h1#titulocontacto{
 

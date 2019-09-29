@@ -286,18 +286,18 @@
       }
 
       h1#titulocontacto{
-        padding-left: 18%;
+        padding-left: 15%;
         font-size: 45px;
 
       }
       p#direccion{
         font-size: 18px;
         color: black;
-        padding-left:5%;
+        padding-left:15%;
       }
       a#link{
         font-size: 15px;
-        padding-left: 5%;
+        padding-left: 15%;
       }
       h1#titulotermino{
         padding-left: 0%;
@@ -461,52 +461,53 @@
      display: flex;
      flex-flow: column;
      justify-content: space-around;
+     padding-left: 10%;
      }
      h1#titulocontacto{
-       padding-left: 12%;
+
        font-size: 45px;
 
      }
      p#direccion{
        font-size: 18px;
        color: black;
-       padding-left:5%;
+
      }
      a#link{
        font-size: 15px;
-       padding-left: 5%;
+
      }
      h1#titulotermino{
-       padding-left: 12%;
+
        font-size: 45px;
      }
      h1#tituloredessociales{
-       padding-left: 12%;
+
        font-size: 45px;
      }
      p#redessociales{
        text-align: left;
        font-size: 18px;
-        padding-left: 12%
+
      }
 
      h1#tituloderechos{
-       padding-left: 12%;
+
        font-size: 45px;
      }
      p#termino{
        text-align: left;
        font-size: 18px;
-        padding-left: 12%;
+
      }
      p#derechos{
        text-align: left;
        font-size: 18px;
-        padding-left: 12%;
+
      }
 
      a#redes{
        font-size: 15px;
-       padding-left: 12%;
+
      }
      }
