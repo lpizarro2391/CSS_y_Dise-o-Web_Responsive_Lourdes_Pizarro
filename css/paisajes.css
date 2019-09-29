@@ -1,5 +1,6 @@
 *{
   margin: 0;
+
  }
  body{
   background: #02010a;
@@ -26,7 +27,21 @@
   #menu-principal a:hover {
    text-decoration: none;
   }
-
+  .columna1 img{
+  filter:blur(10px);
+  }
+  .columna2 {
+  filter:grayscale(1);
+  }
+  .columna3 {
+  filter:sepia(0.9);
+  }
+  .columna8 {
+  filter:grayscale(1);
+  }
+  .columna10 {
+  filter:grayscale(1);
+  }
   footer{
     background-color: #C6d5c5;
     font-family: 'Dancing Script', cursive;
@@ -162,7 +177,6 @@
       flex-flow: row wrap;
       justify-content: space-around;
       padding-bottom: 8%;
-      margin-bottom: 6%;
       width: 100%;
       }
       .columna4{
